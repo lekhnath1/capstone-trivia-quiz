@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <meta name="description" content="Lekhnath" />
+    <meta name="author" content="Lekhnath" />
+    <meta name="keywords" content="Lekhnath" />
+
+    <!-- Title Page-->
+    <title>Lekhnath JavaScript Page</title>
+
+    <!-- CSS-->
+    <link href="style.css" rel="stylesheet" media="all" />
+  </head>
+
+  <body>
+    <h1 style="background-color: aquamarine">Welcome to my Quiz.</h1>
+    <div id="main">
+      <h1>Trivia</h1>
+      <div>
+        <button class="button" id="start_button">New Game</button>
+      </div>
+      <div id="game_board">
+        <div id="score_board">
+          <p>Category : <span id="category"></span></p>
+          <p>Score : <span id="score"></span></p>
+        </div>
+        <div id="question"></div>
+        <div class="answer">
+          <input type="text" id="answer_box" placeholder="answer" />
+          <button class="button" id="submit">Submit</button>
+        </div>
+        <div id="success_message" class="message"></div>
+      </div>
+      <div id="game_over_message" class="message"></div>
+    </div>
+    <script src="code.js"></script>
+  </body>
+</html>
